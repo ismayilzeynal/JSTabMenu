@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+    .accordion, .open{
+        width: 60%;
+        padding: 18px;
+    }
+
+    .open {
+        display: none;
+        background-color: white;
+        border: rgba(0, 0, 0, 0.053) 1px solid;
+        background-color: rgba(186, 186, 186, 0.19);
+    }
+
+    .accordion {
+        background-color: rgb(210, 210, 210);
+        cursor: pointer;
+        border: 1px solid rgba(0, 0, 0, 0.107);
+        text-align: left;
+    }
+    
+    .active,
+    .accordion:hover {
+        background-color: #ccc;
+    }
+}
+
