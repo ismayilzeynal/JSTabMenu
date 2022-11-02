@@ -1,5 +1,4 @@
 const accardions = document.querySelectorAll(".accordion");
-
 accardions.forEach(acc => {
     acc.addEventListener("click", function () {
         let open = this.nextElementSibling;
